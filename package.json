@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "todolist",
+  "scripts": {
+    "build": "webpack --colors --config ./webpack.config.dev.js",
+    "build:prod": "webpack --config ./webpack.config.prod.js"
+  },
+  "devDependencies": {
+    "@types/react": "^16.4.0",
+    "@types/react-dom": "^16.0.6",
+    "@types/react-redux": "^6.0.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "ts-loader": "^4.4.1",
+    "typescript": "^2.9.2",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8"
+  }
+}
